@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#bd8dc1"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="Email"
+        android:textColorHint="#3e3e3e"
+        android:fontFamily="@font/font_main"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColorHint="#3e3e3e"
+        android:fontFamily="@font/font_main"
+        android:textSize="20sp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="#fef500"
+        android:fontFamily="@font/font_main"
+        android:textSize="35sp"
+        android:text="Войти" />
+
+    <!-- Кнопка "Назад" -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="62dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/loginButton"
+        android:layout_marginTop="-285dp"
+        android:src="@drawable/ic_back_arrow" />
+
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/my_red"
+        android:visibility="gone" />
+
+</RelativeLayout>

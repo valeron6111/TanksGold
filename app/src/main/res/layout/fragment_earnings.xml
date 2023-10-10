@@ -1,0 +1,64 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#bd8dc1"
+    android:layout_height="match_parent">
+
+    <!-- Кнопка "Заработать на выполнении заданий" -->
+    <Button
+        android:id="@+id/offerwallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заработать на выполнении заданий"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#fef500"
+        android:fontFamily="@font/font_main"
+        android:textSize="25sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/downloadFilesButton" />
+
+    <!-- Кнопка "Заработать на скачивании файлов" -->
+    <Button
+        android:id="@+id/downloadFilesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заработать на скачивании файлов"
+        app:layout_constraintTop_toBottomOf="@+id/offerwallButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#fef500"
+        android:fontFamily="@font/font_main"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/viewPhotosButton" />
+
+    <!-- Кнопка "Заработать на просмотре фото" -->
+    <Button
+        android:id="@+id/viewPhotosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заработать на просмотре фото"
+        app:layout_constraintTop_toBottomOf="@+id/downloadFilesButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#fef500"
+        android:fontFamily="@font/font_main"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/receivePushNotificationsButton" />
+
+    <!-- Кнопка "Заработать на получении push-уведомлений" -->
+    <Button
+        android:id="@+id/receivePushNotificationsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заработать на получении push-уведомлений"
+        app:layout_constraintTop_toBottomOf="@+id/viewPhotosButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#fef500"
+        android:fontFamily="@font/font_main"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

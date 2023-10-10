@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "511887112896",
+    "project_id": "tanks-ead4f",
+    "storage_bucket": "tanks-ead4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511887112896:android:efac665adb2db007268b25",
+        "android_client_info": {
+          "package_name": "com.android.tanksgold"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB_V1hCdlRS0r6SQSWcrZvHL5fC2S-LFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

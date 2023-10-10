@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#663d77"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="379dp"
+        android:layout_height="66dp"
+        android:layout_below="@id/loginButton"
+        android:layout_marginTop="15dp"
+        android:text="Регистрация"
+        android:textSize="39sp"
+        android:fontFamily="@font/font_main"
+        android:textColor="#fef500" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="379dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="@font/font_main"
+        android:text="Авторизация"
+        android:textColor="#fef500"
+        android:textSize="39sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>

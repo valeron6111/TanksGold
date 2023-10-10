@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/earnings"
+        android:title="Заработок"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/withdraw_gold"
+        android:title="Вывод голды"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/account"
+        android:title="Аккаунт"
+        app:showAsAction="ifRoom" />
+</menu>
